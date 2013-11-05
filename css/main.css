@@ -63,45 +63,4 @@ table{
     border-spacing:0;
 }
 
-/*------------------------------------*\
-    $MAIN
-\*------------------------------------*/
-/* GO! */
-
-h1 {
-    padding: 12px;
-    color: #fff;
-    background-color: #4b71f0;
-    font-size: 18px;
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-    -moz-box-shadow:    0 0 1px 3px #ccc;
-    -webkit-box-shadow: 0 0 1px 3px #ccc;
-    box-shadow:         0 0 1px 3px #ccc;
-}
-
-ol {
-
-}
-
-li {
-    padding: 15px;
-    color: #7f2020;
-    font-family: Helvetica, sans-serif;
-    border-bottom: solid 1px #ccc;
-}
-
-a {
-    text-decoration: none;
-    color: #7f2020;
-}
-
-a:hover {
-    text-decoration: none;
-    color: #7f2020;
-}
-
-a:visited {
-    text-decoration: none;
-    color: #7f2020;
-}
+/* Your styles go here */
