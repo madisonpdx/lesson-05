@@ -10,9 +10,9 @@ HTML Anchor Tag
 
 This tag is used to create a link to another page.
 
-<![CDATA[
+```
 	<a href="index.html">Link Text</a>
-]]>
+```
 
 [Reference](http://www.w3schools.com/tags/tag_a.asp)
 
@@ -21,21 +21,21 @@ HTML List Tags
 
 List tags are used to display either an ordered (has numbering) or unordered (has bullets) list of items.
 
-<![CDATA[
+```
 	<ol>
 		<li>Item One</li>
 		<li>Item Two</li>
 		<li>Item Three</li>	
 	</ol>
-]]>
+```
 
-<![CDATA[
+```
 	<ul>
 		<li>Item One</li>
 		<li>Item Two</li>
 		<li>Item Three</li>	
 	</ul>
-]]>
+```
 
 [Reference](http://www.w3schools.com/html/html_lists.asp)
 
