@@ -10,9 +10,9 @@ HTML Anchor Tag
 
 This tag is used to create a link to another page.
 
-<pre>
+<![CDATA[
 	<a href="index.html">Link Text</a>
-</pre>
+]]>
 
 [Reference](http://www.w3schools.com/tags/tag_a.asp)
 
@@ -21,21 +21,21 @@ HTML List Tags
 
 List tags are used to display either an ordered (has numbering) or unordered (has bullets) list of items.
 
-<pre>
+<![CDATA[
 	<ol>
 		<li>Item One</li>
 		<li>Item Two</li>
 		<li>Item Three</li>	
 	</ol>
-</pre>
+]]>
 
-<pre>
+<![CDATA[
 	<ul>
 		<li>Item One</li>
 		<li>Item Two</li>
 		<li>Item Three</li>	
 	</ul>
-</pre>
+]]>
 
 [Reference](http://www.w3schools.com/html/html_lists.asp)
 
@@ -45,43 +45,37 @@ Adding Some Style
 Use Cascading Style Sheets (CSS) to make your HTML look better. 
 
 <pre>
-h1 {
-    padding: 12px;
-    color: #fff;
+h1 { }
+ol { }
+li { }
+a { }
+a:hover { }
+a:visited { }
+</pre>
+
+Text Styling
+
+<pre>
     background-color: #4b71f0;
     font-size: 18px;
     font-family: Helvetica, sans-serif;
     text-align: center;
-    -moz-box-shadow:    0 0 1px 3px #ccc;
-    -webkit-box-shadow: 0 0 1px 3px #ccc;
-    box-shadow:         0 0 1px 3px #ccc;
-}
-
-ol {
-
-}
-
-li {
-    padding: 15px;
-    color: #7f2020;
-    font-family: Helvetica, sans-serif;
-    border-bottom: solid 1px #ccc;
-}
-
-a {
     text-decoration: none;
     color: #7f2020;
-}
+</pre>
 
-a:hover {
-    text-decoration: none;
-    color: #7f2020;
-}
+Spacing
 
-a:visited {
-    text-decoration: none;
-    color: #7f2020;
-} 
+<pre>
+    padding: 12px;
+</pre>
+
+Shadows
+
+<pre>
+    -moz-box-shadow:    0 10px 6px 7px #ccc;
+    -webkit-box-shadow: 0 10px 6px 7px #ccc;
+    box-shadow:         0 10px 6px 7px #ccc;
 </pre>
 
 [Reference](http://www.w3schools.com/css/)
